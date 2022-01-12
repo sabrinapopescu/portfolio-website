@@ -1,7 +1,60 @@
+body {
+  background-color: #ffffff;
+  color: #1a1b1f;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+h1 {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 600;
+  font-size: 3.2em;
+  line-height: 62px;
+}
+
+h2 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 3em;
+  line-height: 32px;
+}
+
+
+h3 {
+  color: #f16e55;
+  font-family: 'Outfit', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+h4 {
+  color: #1a1b1f;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+}
+
+img.logo {
+  width: 180px;
+  height: 100px;
+}
+
 img.social {
   width: 32px;
   height: 32px;
 }
+
+img.profile {
+  width: 400px;
+  height: 600px;
+}
+
 a {
   color: #f16e55;
   text-decoration: none;
@@ -60,3 +113,22 @@ a:active {
   border-radius: 3px;
   border-bottom: 2px solid #994c30;
 }
+
+
+
+/*
+echelon
+
+Colors used:
+Primary Color (White): #FFFFFF;
+Secondary Color (light grey): #F9F9F9;
+Highlight Color (orange): #F08643
+*/
+/*
+website
+
+Colors used:
+Primary Color (White): #FFFFFF;
+Secondary Color (light grey): #F9F9F9;
+Highlight Color (orange): #F08643
+*/

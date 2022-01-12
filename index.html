@@ -2,9 +2,11 @@
 <html lang="en" dir="ltr">
 
 <head>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sabrina Popescu - a growth oriented UX/UI designer based in Amsterdam</title>
@@ -12,7 +14,7 @@
 
 <body>
   <header>
-    <img src="img/logo.svg" alt="Sabrina Popescu Logo" />
+    <img src="img/logo.svg" alt="Sabrina Popescu Logo" class="logo"/>
     <nav>
       <ul>
         <li><a href="index.html">Projects</a></li>
@@ -22,11 +24,11 @@
     </nav>
   </header>
   <main>
-    <div>
+    <div id="hero">
       <h1>Hi, I'm Sabrina. A multidisciplinary UX/UI designer based in Amsterdam.</h1>
       <p>I like designing products that make people's lives easier and better. In my day-to-day work, I support design teams in building design systems and enjoy being an ally to my users.</p>
     </div>
-    <div>
+    <div id="work">
       <h2>Selected work</h2>
       <div>
         <h3>Echelon</h3>
@@ -50,12 +52,11 @@
       </div>
 
     </div>
-    <div>
+    <div id="cta">
       <h2>Let's work together</h2>
     </div>
   </main>
   <footer id="contact">
-    <h4>Let's connect!</h4>
     <p>Get in touch via <a href="tel:+31648024333">phone</a>.
       If you prefer to write, here's my <a href="mailto:sabrinapopescud@gmail.com" class="button contact">email</a> address.
     </p>
