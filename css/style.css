@@ -2,3 +2,61 @@ img.social {
   width: 32px;
   height: 32px;
 }
+a {
+  color: #f16e55;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1a1b1f;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #f16e55;
+}
+
+a:hover,
+a:focus {
+  color: #1a1b1f;
+  text-decoration: none;
+}
+
+a:active {
+  /* selected link */
+  color: #a3a3a3;
+}
+
+.button {
+  display: inline-block;
+  background-color: #fcdfd9;
+  color: #f16e55;
+  text-decoration: none;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #994c30;
+  transition: 0.2s opacity;
+}
+
+.button:hover, .button:active {
+  opacity: 0.8;
+  background-color: #f16e55;
+  color: #fcdfd9;
+  text-decoration: none;
+}
+
+.button.contact {
+  color:#fcdfd9;
+  background-color: #e86f48;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #994c30;
+}
+
+.button.contact:hover, .button.contact:active {
+  background-color: #e86f48;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #994c30;
+}
