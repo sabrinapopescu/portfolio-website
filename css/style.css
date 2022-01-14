@@ -80,6 +80,31 @@ a:active {
   color: #a3a3a3;
 }
 
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav>ul>li {
+  display: inline-block;
+}
+
+nav>ul>li>a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #1a1b1f;
+}
+
+nav>ul>li>a:visited {
+  color: inherit;
+}
+
+nav>ul>li>a:hover {
+  color: #f16e55;
+}
+
 .button {
   display: inline-block;
   background-color: #fcdfd9;
