@@ -14,7 +14,7 @@
 
 <body>
   <header>
-    <img src="img/logo.svg" alt="Sabrina Popescu Logo" class="logo"/>
+    <img src="img/logo.svg" alt="Sabrina Popescu Logo" class="logo" />
     <nav>
       <ul>
         <li><a href="index.html">Projects</a></li>
@@ -25,45 +25,53 @@
   </header>
   <main>
     <div id="hero">
-      <h1>Hi, I'm Sabrina. A multidisciplinary UX/UI designer based in Amsterdam.</h1>
-      <p>I like designing products that make people's lives easier and better. In my day-to-day work, I support design teams in building design systems and enjoy being an ally to my users.</p>
+      <div class="container">
+        <h1>Hi, I'm Sabrina, a growth-oriented UX/UI designer.
+        </h1>
+        <p class="center">I like designing products that make people's lives easier and better. In my day-to-day work, I support design teams in building design systems and enjoy being an ally to my users.</p>
+      </div>
     </div>
     <div id="work">
-      <h2>Selected work</h2>
-      <div>
-        <h3>Echelon</h3>
-        <picture>
-          <source srcset="img/echelon/mobile.png" media="(max-width:767px)">
-          <img src="img/echelon/desktop.png" alt="Echelon UX/UI project" />
-        </picture>
-        <p>An e-commerce web app for people who want to shop for
-          cycling apparel items without going into a physical store.</p>
-        <a href="echelon.html" class="button">Case study</a>
+      <div class="container">
+        <h2>Selected work</h2>
+        <div class="row">
+          <h3>Echelon</h3>
+          <picture>
+            <source srcset="img/echelon/mobile.png" media="(max-width:767px)">
+            <img src="img/echelon/desktop.png" alt="Echelon UX/UI project" />
+          </picture>
+          <p>An e-commerce web app for people who want to shop for
+            cycling apparel items without going into a physical store.</p>
+          <a href="echelon.html" class="button">Case study</a>
+        </div>
+        <div class="row">
+          <h3>Tech Up</h3>
+          <picture>
+            <source srcset="img/techup/mobile.png" media="(max-width:767px)">
+            <img src="img/techup/desktop.png" alt="Tech Up UI project" />
+          </picture>
+          <p>A mobile app for both Android and iOS devices that helps
+            people buy and sell pre-owned electronics at a fair price.</p>
+          <a href="techup/index.html" class="button">Case study</a>
+        </div>
       </div>
-      <div>
-        <h3>Tech Up</h3>
-        <picture>
-          <source srcset="img/techup/mobile.png" media="(max-width:767px)">
-          <img src="img/techup/desktop.png" alt="Tech Up UI project" />
-        </picture>
-        <p>A mobile app for both Android and iOS devices that helps
-          people buy and sell pre-owned electronics at a fair price.</p>
-        <a href="techup/index.html" class="button">Case study</a>
-      </div>
-
     </div>
     <div id="cta">
-      <h2>Let's work together</h2>
+      <div class="container">
+        <h2>Let's work together</h2>
+      </div>
     </div>
   </main>
   <footer id="contact">
-    <p>Get in touch via <a href="tel:+31648024333">phone</a>.
-      If you prefer to write, here's my <a href="mailto:sabrinapopescud@gmail.com" class="button contact">email</a> address.
-    </p>
-    <a href="https://www.linkedin.com/in/sabrinapopescud/" target="_blank">
-    <img src="img/linkedin.svg" class="social"/>
-    </a>
-    <p>Copyright Sabrina Popescu 2022</p>
+    <div class="container">
+      <p>Get in touch via <a href="tel:+31648024333">phone</a>.
+        If you prefer to write, here's my <a href="mailto:sabrinapopescud@gmail.com" class="button contact">email</a> address.
+      </p>
+      <a href="https://www.linkedin.com/in/sabrinapopescud/" target="_blank">
+        <img src="img/linkedin.svg" class="social" />
+      </a>
+      <p>Copyright Sabrina Popescu 2022</p>
+    </div>
   </footer>
 </body>
 

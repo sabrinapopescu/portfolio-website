@@ -5,6 +5,14 @@ Primary Color (White): #FFFFFF;
 Secondary Color (light grey): #F9F9F9;
 Highlight Color (orange): #F08643
 */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffffff;
   color: #1a1b1f;
@@ -32,6 +40,7 @@ h1 {
   font-weight: 600;
   font-size: 3.2em;
   line-height: 62px;
+  text-align: center;
 }
 
 h2 {
@@ -77,11 +86,6 @@ img.profile {
 
 a {
   color: #f16e55;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #1a1b1f;
   text-decoration: none;
 }
 
@@ -145,7 +149,6 @@ nav>ul>li>a:hover {
 }
 
 .button.contact {
-  color:#fcdfd9;
   background-color: #e86f48;
   padding: 10px;
   border-radius: 3px;
@@ -159,7 +162,30 @@ nav>ul>li>a:hover {
   border-bottom: 2px solid #994c30;
 }
 
+#hero h1 {
+  text-align: center;
+}
 
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
 
+.center {
+  text-align: center;
+}
 
+#hero {
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
 
+.row {
+  margin: 25px 0;
+}
+
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
+}
