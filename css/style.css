@@ -149,6 +149,7 @@ nav>ul>li>a:hover {
 }
 
 .button.contact {
+  color: #fcdfd9;
   background-color: #e86f48;
   padding: 10px;
   border-radius: 3px;
