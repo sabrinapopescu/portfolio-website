@@ -52,7 +52,6 @@ h2 {
   /*62 divided by 28*/
 }
 
-
 h3 {
   color: #f16e55;
   font-family: 'Outfit', sans-serif;
@@ -84,6 +83,12 @@ img.social {
 img.profile {
   width: 400px;
   height: 600px;
+}
+
+img.berlin-illustration {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -191,3 +196,110 @@ nav>ul>li>a:hover {
   padding-bottom: 25px;
   border-bottom: 1px solid #4a4a4a;
 }
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container .menu {
+  height: 100px;
+  display: block;
+}
+
+header nav {
+  display: none;
+}
+
+  @keyframes color-change {
+  0% {fill: #edc655;}
+  50% {fill: #fcffad;}
+  100% {fill: #f76414;}
+}
+
+.sun {
+  animation: 4s color-change infinite alternate linear;
+}
+
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+
+.cloud-front {
+  animation: 20s cloud-move infinite alternate linear;
+}
+
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
+}
+
+.cloud-back {
+  animation: 44s cloud-move-reverse infinite alternate ease-in-out;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  header .container .menu {
+    display: none;
+  }
+
+  header nav {
+    display: block;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  .container {
+    padding: 0 24px;
+    max-width: 728px;
+    margin: 0 auto;
+  }
+
+  .row .content {
+    display: flex;
+    gap: 20px;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  img.profile {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .col-lg-7 {
+    width: 58.33%
+  }
+
+  .col-lg-5 {
+    width: 41.66%
+  }
+
+  .container {
+    max-width: 952px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
