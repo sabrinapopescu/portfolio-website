@@ -203,8 +203,37 @@ header .container {
 }
 
 header .container .menu {
-  height: 100px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgba(241, 110, 85, 0.1);
   display: block;
+  position: absolute;
+  right: 16px;
+  top: 39px;
+}
+
+header .container .menu .icon {
+  position: relative;
+  top: 9px;
+}
+
+header .container .menu .lines {
+  position: absolute;
+  opacity: 1;
+}
+
+header .container .menu .close {
+  position: absolute;
+  opacity: 0;
+}
+
+header .container .menu.is-open .lines {
+  opacity: 0;
+}
+
+header .container .menu.is-open .close {
+  opacity: 1;
 }
 
 header nav {
