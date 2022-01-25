@@ -22,12 +22,17 @@ body {
   line-height: 30px;
 }
 
+body.is-menu-open {
+  overflow: hidden;
+}
+
 header {
   background-color: #ffffff;
   text-align: center;
   padding: 10px 0;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 main {
@@ -196,6 +201,32 @@ nav>ul>li>a:hover {
   border-bottom: 1px solid #4a4a4a;
 }
 
+.mobile-navigation {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: #ffffff;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.mobile-navigation.is-open {
+  display: flex;
+}
+
+.mobile-navigation nav ul {
+  font-size: 2em;
+  line-height: 1.7;
+}
+
+.mobile-navigation nav ul li {
+  display: block;
+  text-align: center;
+}
+
 header .container {
   display: flex;
   justify-content: space-between;
@@ -211,6 +242,7 @@ header .container .menu {
   position: absolute;
   right: 16px;
   top: 39px;
+  cursor: pointer;
 }
 
 header .container .menu .icon {
