@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #fff;
   color: #1a1b1f;
   font-family: 'Outfit', sans-serif;
   font-weight: 300;
@@ -27,7 +27,7 @@ body.is-menu-open {
 }
 
 header {
-  background-color: #ffffff;
+  background-color: #fff;
   text-align: center;
   padding: 10px 0;
   position: fixed;
@@ -42,19 +42,23 @@ main {
 h1 {
   font-family: 'Source Serif Pro', serif;
   font-weight: 600;
+
+  /* 42px divided by 16 */
   font-size: 2.625em;
-  /*42px divided by 16*/
+
+  /* 58 divided by 42 */
   line-height: 1.38em;
-  /*58 divided by 42*/
 }
 
 h2 {
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
+
+  /* 28px divided by 16 */
   font-size: 1.75em;
-  /*28px divided by 16*/
+
+  /* 62 divided by 28 */
   line-height: 2.21em;
-  /*62 divided by 28*/
 }
 
 h3 {
@@ -116,27 +120,27 @@ a:active {
   color: #a3a3a3;
 }
 
-nav>ul {
+nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-nav>ul>li {
+nav > ul > li {
   display: inline-block;
 }
 
-nav>ul>li>a {
+nav > ul > li > a {
   padding: 0 15px;
   font-weight: 500;
   color: #1a1b1f;
 }
 
-nav>ul>li>a:visited {
+nav > ul > li > a:visited {
   color: inherit;
 }
 
-nav>ul>li>a:hover {
+nav > ul > li > a:hover {
   color: #f16e55;
 }
 
@@ -149,10 +153,11 @@ nav>ul>li>a:hover {
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #994c30;
-  transition: all .2s linear;
+  transition: all 0.2s linear;
 }
 
-.button:hover, .button:active {
+.button:hover,
+.button:active {
   background-color: #f16e55;
   color: #fcdfd9;
   text-decoration: none;
@@ -166,7 +171,8 @@ nav>ul>li>a:hover {
   border-bottom: 2px solid #994c30;
 }
 
-.button.contact:hover, .button.contact:active {
+.button.contact:hover,
+.button.contact:active {
   background-color: #e86f48;
   padding: 10px;
   border-radius: 3px;
@@ -207,7 +213,7 @@ nav>ul>li>a:hover {
   right: 0;
   bottom: 0;
   top: 0;
-  background: #ffffff;
+  background: #fff;
   align-items: center;
   justify-content: center;
   display: none;
@@ -272,10 +278,10 @@ header nav {
   display: none;
 }
 
-  @keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
+@keyframes color-change {
+  0% { fill: #edc655; }
+  50% { fill: #fcffad; }
+  100% { fill: #f76414; }
 }
 
 .sun {
@@ -283,8 +289,8 @@ header nav {
 }
 
 @keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+  from { transform: translate(0, 50px); }
+  to { transform: translate(200px, 50px); }
 }
 
 .cloud-front {
@@ -292,17 +298,13 @@ header nav {
 }
 
 @keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
+  from { transform: translate(446px, 48px); }
+  to { transform: translate(100px, 48px); }
 }
 
 .cloud-back {
   animation: 44s cloud-move-reverse infinite alternate ease-in-out;
 }
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -339,16 +341,14 @@ header nav {
   }
 }
 
-
-
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .col-lg-7 {
-    width: 58.33%
+    width: 58.33%;
   }
 
   .col-lg-5 {
-    width: 41.66%
+    width: 41.66%;
   }
 
   .container {
@@ -363,3 +363,4 @@ header nav {
     margin-left: auto;
     margin-right: auto;
   }
+}
