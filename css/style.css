@@ -147,6 +147,10 @@ nav > ul > li > a {
   color: #1a1b1f;
 }
 
+header nav > ul > li:last-child a {
+  padding-right: 0;
+}
+
 nav > ul > li > a:visited {
   color: inherit;
 }
