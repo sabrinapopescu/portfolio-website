@@ -147,6 +147,14 @@ nav > ul > li > a {
   color: #1a1b1f;
 }
 
+header.is-dark nav > ul > li > a {
+  color: #fff;
+}
+
+header.is-dark nav > ul > li > a:hover {
+  color: #f16e55;
+}
+
 header nav > ul > li:last-child a {
   padding-right: 0;
 }
