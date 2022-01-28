@@ -79,11 +79,6 @@ img {
   width: 100%;
 }
 
-img.logo {
-  width: 180px;
-  height: 100px;
-}
-
 img.social {
   width: 32px;
   height: 32px;
@@ -118,6 +113,14 @@ a:focus {
 a:active {
   /* selected link */
   color: #a3a3a3;
+}
+
+a.logo {
+  width: 180px;
+  height: 100px;
+  color: #1a1b1f;
+  display: flex;
+  align-items: center;
 }
 
 nav > ul {
