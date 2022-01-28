@@ -269,6 +269,18 @@ header .container .menu {
   cursor: pointer;
 }
 
+header .container .menu path {
+  stroke: #f16e55;
+}
+
+header.is-dark .container .menu {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+header.is-dark .container .menu path {
+  stroke: #fff;
+}
+
 header .container .menu .icon {
   position: relative;
   top: 9px;
