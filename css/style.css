@@ -36,7 +36,7 @@ header {
 }
 
 main {
-  padding-top: 133px;
+  padding-top: 120px;
 }
 
 h1 {
@@ -85,8 +85,8 @@ img.social {
 }
 
 img.profile {
-  width: 400px;
-  height: 600px;
+  max-width: 100%;
+  height: auto;
 }
 
 img.berlin-illustration {
@@ -121,6 +121,14 @@ a.logo {
   color: #1a1b1f;
   display: flex;
   align-items: center;
+}
+
+.is-dark a.logo {
+  color: white;
+}
+
+a.logo:hover {
+  color: #f16e55;
 }
 
 nav > ul {
@@ -199,6 +207,8 @@ nav > ul > li > a:hover {
   padding: 20px 0;
   display: inline-block;
   width: 100%;
+  background-color: #1a1b1f;
+  color: #fff;
 }
 
 .row {
@@ -240,6 +250,11 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+header.is-dark {
+  background-color: #1a1b1f;
+  color: #fff;
 }
 
 header .container .menu {
